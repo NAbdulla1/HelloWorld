@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void btnClick(View v){
         inc += 10;
         tv.setText("" + inc);
-        inc %= 10;
+        inc %= 100;
     }
 }
